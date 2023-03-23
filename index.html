@@ -1,66 +1,69 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>John Doe, PhD</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<meta charset="UTF-8">
+	<title>John Doe | PhD Student</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-  <a class="navbar-brand" href="#">John Doe, PhD</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#about">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#publications">Publications</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contact">Contact</a>
-      </li>    
-    </ul>
-  </div>  
-</nav>
+	<header>
+		<h1>John Doe</h1>
+		<h2>PhD Student</h2>
+	</header>
 
-<div class="jumbotron text-center">
-  <h1>John Doe, PhD</h1>
-  <p>PhD Candidate in Computer Science</p>
-</div>
-  
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-8">
-      <h2 id="about">About Me</h2>
-      <h5>Education</h5>
-      <p>PhD in Computer Science, XYZ University, 20XX-20XX (Expected)</p>
-      <p>Master of Science in Computer Science, ABC University, 20XX-20XX</p>
-      <p>Bachelor of Technology in Computer Science and Engineering, DEF University, 20XX-20XX</p>
-      <h5>Research Interests</h5>
-      <p>Machine Learning, Natural Language Processing, Data Mining</p>
-      <h5>Experience</h5>
-      <p>Research Assistant, XYZ Lab, XYZ University, 20XX-present</p>
-      <p>Teaching Assistant, ABC Department, ABC University, 20XX-20XX</p>
-    </div>
-    <div class="col-sm-4">
-      <img src="profile_pic.jpg" class="rounded-circle mx-auto d-block" alt="John Doe" width="200" height="200">
-    </div>
-  </div>
-</div>
+	<nav>
+		<ul>
+			<li><a href="#about">About</a></li>
+			<li><a href="#publications">Publications</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
 
-<div class="container-fluid bg-grey">
-  <h2 id="publications">Publications</h2>
-  <div class="row">
-    <div class="col-sm-12">
-      <h5>Journal Papers</h5>
-      <ul>
-        <li>Doe, J., and Smith, J. (20XX). "Title of Paper 1." Journal of Machine Learning Research, Vol. 10, pp. 1-10.</li>
-        <li>Doe, J., and Johnson, M. (20XX).
+	<main>
+
+		<section id="about">
+			<h2>About Me</h2>
+			<p>I am a PhD student at XYZ University, specializing in Computer Science. My research interests include Machine Learning, Computer Vision, and Natural Language Processing. I have published several papers in top-tier conferences and journals, and have received several awards for my research.</p>
+		</section>
+
+		<section id="publications">
+			<h2>Publications</h2>
+			<ul>
+				<li>
+					<h3>RFTemp: Monitoring Microwave Oven Leakage to Estimate Food Temperature</h3>
+					<p>Proc. 2022 ACM Interact. Mob. Wearable Ubiquitous Technol. 5, 4, Article 144 (Dec 2021), 25 pages.</p>
+					<p><a href="#">Paper Link</a></p>
+				</li>
+				<li>
+					<h3>WiNE: Monitoring Microwave Oven Leakage to Estimate Food Nutrients and Calorie</h3>
+					<p>Proc. ACM Interact. Mob. Wearable Ubiquitous Technol. 6, 3, Article 99 (September 2022), 24 pages.</p>
+					<p><a href="#">Paper Link</a></p>
+				</li>
+				<li>
+					<h3>ReFleX: Enabling Full Duplex Relay Cluster</h3>
+					<p>2023 15th International Conference on COMmunication Systems NETworkS (COMSNETS) (getting published) [Best All-round Paper 1st Runners-up]</p>
+				</li>
+				<li>
+					<h3>PROWESS: An Open Testbed for Programmable Wireless Edge Systems</h3>
+					<p>2022 ACM Practice and Experience in Advanced Research Computing (PEARC)</p>
+					<p><a href="#">Paper Link</a></p>
+				</li>
+			</ul>
+		</section>
+
+		<section id="contact">
+			<h2>Contact Me</h2>
+			<p>Email: john.doe@xyz.edu</p>
+			<p>Twitter: <a href="#">@johndoe</a></p>
+			<p>LinkedIn: <a href="#">john-doe</a></p>
+		</section>
+
+	</main>
+
+	<footer>
+		<p>&copy; 2023 John Doe</p>
+	</footer>
+
+</body>
+</html>
