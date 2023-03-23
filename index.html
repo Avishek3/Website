@@ -3,6 +3,16 @@
   <head>
     <meta charset="UTF-8">
     <title>PhD Student Website</title>
+    <style>
+      .paper {
+        display: inline-block;
+        margin: 10px;
+      }
+      .paper img {
+        width: 200px;
+        height: auto;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -25,7 +35,26 @@
 
       <section id="research">
         <h2>Research</h2>
-        <p>My current research focuses on developing algorithms for image segmentation using deep learning techniques. I am also interested in exploring the applications of machine learning in healthcare.</p>
+        <div class="papers">
+          <div class="paper">
+            <a href="paper1.pdf" target="_blank">
+              <img src="paper1_thumbnail.jpg" alt="Paper 1">
+            </a>
+            <p>Paper 1 title</p>
+          </div>
+          <div class="paper">
+            <a href="paper2.pdf" target="_blank">
+              <img src="paper2_thumbnail.jpg" alt="Paper 2">
+            </a>
+            <p>Paper 2 title</p>
+          </div>
+          <div class="paper">
+            <a href="paper3.pdf" target="_blank">
+              <img src="paper3_thumbnail.jpg" alt="Paper 3">
+            </a>
+            <p>Paper 3 title</p>
+          </div>
+        </div>
       </section>
 
       <section id="publications">
